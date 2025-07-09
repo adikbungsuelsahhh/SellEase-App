@@ -6,7 +6,7 @@ import google.generativeai as genai
 import traceback
 
 # ✅ Ganti ini dengan API key milikmu dari https://makersuite.google.com/app/apikey
-genai.configure(api_key="AIzaSyA2JEQ4LGTvDC_PMwPEID7E7URWlgvnyy8")  # <- GANTI di sini!
+genai.configure(api_key="AIzaSyD76mBrULk3APDa7TorPl-EARqAm6Zp4kw")  # <- GANTI di sini!
 
 # Fungsi untuk generate caption dari gambar dan prompt menggunakan Gemini
 def generate_ai_caption(image: Image.Image, user_prompt: str) -> str:
